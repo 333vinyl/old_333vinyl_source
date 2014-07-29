@@ -51,6 +51,11 @@ h2 {
   margin-bottom: 1.35em;
 }
 
+h2 a {
+  font-family: 'Oswald';
+  font-style: normal;
+}
+
 h3 {
   font-style: italic;
   text-align: center;
@@ -89,6 +94,7 @@ hr {
 
 .header h1 {
   font-size: 2.6em;
+  font-family: 'Oswald';
   text-align: center;
   font-weight: 700;
   margin: 0;
@@ -114,6 +120,13 @@ hr {
   font-style: italic;
   text-align: center;
   margin-top: -0.3em;
+}
+
+.header .score {
+  font-family: 'Anonymous Pro';
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.2em;
 }
 
 body.article-detail > header h1 {
@@ -433,4 +446,3 @@ code.lang-markdown .bullet {
     margin-bottom: 1em;
   }
 }
-
