@@ -13,6 +13,7 @@ block header
   p.author
     | #{ "Written by " }
     mixin author(page.metadata.author)
+  p.score= page.metadata.score
 
 block content
   article.article
