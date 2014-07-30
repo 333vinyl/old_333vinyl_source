@@ -122,11 +122,59 @@ hr {
   margin-top: -0.3em;
 }
 
-.header .score {
+.header .details {
+  border: none;
+  overflow: hidden;
+  margin: 0px;
+  margin-bottom: -5%;
+  background: #fff;
+  border: 1px dashed #d2d2d2;
+  border-radius: 0.25em;
+  padding: 1em;
+}
+
+.header .details .score, .score_red {
   font-family: 'Anonymous Pro';
-  text-align: center;
   font-weight: bold;
   font-size: 2.2em;
+  border-radius: 30%;
+  border: solid;
+  float: left;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .details .score_red {
+  color: red;
+}
+
+.header .details .albumartist{
+  font-family: 'Oswald';
+  max-width: 50%;
+  max-height: 30%;
+  font-size: 1.8em;
+  margin-bottom: 5%;
+}
+
+.header .details .labelrelease{
+  font-family: 'Anonymous Pro';
+  float: left;
+  margin: 0px;
+  margin-left: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*.header .details .release {
+  clear: left;
+  float: left;
+}*/
+
+.header .details img {
+  max-width:50%;
+  height:auto;
+  float: right;
 }
 
 body.article-detail > header h1 {

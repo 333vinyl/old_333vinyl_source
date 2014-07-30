@@ -13,7 +13,20 @@ block header
   p.author
     | #{ "Written by " }
     mixin author(page.metadata.author)
-  p.score= page.metadata.score
+  div.details
+    img(src=page.metadata.artwork)
+    p.albumartist
+      | #{page.metadata.artist}
+      br
+      | #{page.metadata.album}
+    if page.metadata.score >= 4.5
+      p.score_red= page.metadata.score
+    if page.metadata.score < 4.5
+      p.score= page.metadata.score
+    p.labelrelease
+      | #{page.metadata.label}
+      br
+      | #{page.metadata.release}
 
 block content
   article.article

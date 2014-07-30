@@ -1,14 +1,14 @@
 ---
-title: Spoon - They Want My Soul
+title: The Antlers - Familiars
 author: the-wintersmith
 date: 2014-10-01 15:00
 template: review.jade
-artwork: spoon-they_want_my_soul.jpg
+artwork: antlers-familiars.jpg
 score: 4.5
-artist: Spoon
-album: They Want My Soul
-label: Loma Vista
-release: 2014/08/05
+artist: The Antlers
+album: Familiars
+label: Anti-
+release: 2014/06/18
 ---
 
 Syntax highlighting with [highlight.js](http://softwaremaniacs.org/soft/highlight/en/).
