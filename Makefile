@@ -27,7 +27,7 @@ build: clean
 		echo "333vinyl.us" >> $(BUILD_DIR)/CNAME
 
 deploy: clean build
-		cd $(BUILD_DIR) && git add --all . && git commit -m "PROD" && git push -f origin +master:refs/heads/master
+		cd $(BUILD_DIR) && git add . && git commit -am "PROD" && git push -f origin +master:refs/heads/master
 
 push-deploy: deploy
 		git push origin master

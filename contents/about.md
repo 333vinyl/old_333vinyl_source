@@ -3,7 +3,7 @@ view: none
 ---
 
 Wintersmith is made by [Johan Nordberg][1] and licensed under the [MIT-license][2].
-Wheeeeeeee.
+Wheeeeeeee. Zooooom.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
