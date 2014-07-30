@@ -5,13 +5,30 @@
     <atom:link href="http://benbailey.me/music/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://benbailey.me/music</link>
     <description>A teenager who likes music</description>
-    <pubDate>Wed, 01 Oct 2014 15:00:00 -0600</pubDate>
+    <pubDate>Wed, 01 Oct 2014 15:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>The Antlers - Familiars</title>
+      <link>http://benbailey.me/music/articles/antlers-familiars/</link>
+      <pubDate>Wed, 01 Oct 2014 15:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://benbailey.me/music/articles/antlers-familiars/</guid>
+      <author></author>
+      <description>&lt;p&gt;Syntax highlighting with &lt;a href=&quot;http://softwaremaniacs.org/soft/highlight/en/&quot;&gt;highlight.js&lt;/a&gt;.
+The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmblog.github.io/color-themes-for-highlightjs/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;javascript&quot;&gt;JavaScript&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;getRandomNumber&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; {&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;; &lt;span class=&quot;comment&quot;&gt;// chosen by fair dice roll.&lt;/span&gt;
+              &lt;span class=&quot;comment&quot;&gt;// guaranteed to be random.&lt;/span&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    <item>
       <title>Spoon - They Want My Soul</title>
       <link>http://benbailey.me/music/articles/spoon-they_want_my_soul/</link>
-      <pubDate>Wed, 01 Oct 2014 15:00:00 -0600</pubDate>
+      <pubDate>Wed, 01 Oct 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://benbailey.me/music/articles/spoon-they_want_my_soul/</guid>
       <author></author>
       <description>&lt;p&gt;Syntax highlighting with &lt;a href=&quot;http://softwaremaniacs.org/soft/highlight/en/&quot;&gt;highlight.js&lt;/a&gt;.
@@ -28,7 +45,7 @@ The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmb
     <item>
       <title>README</title>
       <link>http://benbailey.me/music/articles/hello-world/</link>
-      <pubDate>Mon, 29 Apr 2013 18:00:00 -0600</pubDate>
+      <pubDate>Mon, 29 Apr 2013 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://benbailey.me/music/articles/hello-world/</guid>
       <author></author>
       <description>&lt;p&gt;Welcome to your new blog! This is the default blog template with RSS, pagination and an archive. There are other templates available — run &lt;code&gt;wintersmith new --help&lt;/code&gt; to list them.&lt;/p&gt;
@@ -96,7 +113,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     <item>
       <title>A red herring</title>
       <link>http://benbailey.me/music/articles/red-herring/</link>
-      <pubDate>Sun, 31 Mar 2013 18:00:00 -0600</pubDate>
+      <pubDate>Sun, 31 Mar 2013 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://benbailey.me/music/articles/red-herring/</guid>
       <author></author>
       <description>&lt;p&gt;A long time ago, when the world was young — someone put some food on their tongue.
@@ -124,7 +141,7 @@ Because, believe it or not, a banana is not a friend.&lt;/p&gt;
     <item>
       <title>Code and stuff!</title>
       <link>http://benbailey.me/music/articles/another-test/</link>
-      <pubDate>Mon, 01 Oct 2012 15:00:00 -0600</pubDate>
+      <pubDate>Mon, 01 Oct 2012 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://benbailey.me/music/articles/another-test/</guid>
       <author></author>
       <description>&lt;p&gt;Syntax highlighting with &lt;a href=&quot;http://softwaremaniacs.org/soft/highlight/en/&quot;&gt;highlight.js&lt;/a&gt;.
@@ -221,7 +238,7 @@ The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmb
     <item>
       <title>Markdown syntax</title>
       <link>http://benbailey.me/music/articles/markdown-syntax/</link>
-      <pubDate>Wed, 01 Feb 2012 17:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 Feb 2012 18:00:00 -0600</pubDate>
       <guid isPermaLink="true">http://benbailey.me/music/articles/markdown-syntax/</guid>
       <author></author>
       <description>&lt;p&gt;Full markdown syntax taken from John Gruber’s &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Daring Fireball&lt;/a&gt;.
@@ -879,7 +896,7 @@ _   underscore
     <item>
       <title>Taketori Monogatari</title>
       <link>http://benbailey.me/music/articles/bamboo-cutter/</link>
-      <pubDate>Tue, 31 Jan 2012 17:00:00 -0700</pubDate>
+      <pubDate>Tue, 31 Jan 2012 18:00:00 -0600</pubDate>
       <guid isPermaLink="true">http://benbailey.me/music/articles/bamboo-cutter/</guid>
       <author></author>
       <description>&lt;p&gt;Long, long ago, there lived an old bamboo wood-cutter.&lt;/p&gt;
