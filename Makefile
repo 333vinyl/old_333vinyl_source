@@ -26,8 +26,8 @@ build: clean
 		wintersmith build
 		echo "333vinyl.us" >> $(BUILD_DIR)/CNAME
 
-deploy: clean build git-prod
-		cd $(BUILD_DIR) && git add -A && git commit -m "PROD" && git push -f origin +master:refs/heads/master
+deploy: clean build
+		cd $(BUILD_DIR) && git add --all . && git commit -m "PROD" && git push -f origin +master:refs/heads/master
 
 push-deploy: deploy
 		git push origin master
