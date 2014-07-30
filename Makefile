@@ -24,7 +24,7 @@ git-prod:
 
 build: clean
 		wintersmith build
-		echo "www.333vinyl.us" >> $(BUILD_DIR)/CNAME
+		echo "333vinyl.us" >> $(BUILD_DIR)/CNAME
 
 deploy: clean build git-prod
 		cd $(BUILD_DIR) && git add -A && git commit -m "PROD" && git push -f origin +master:refs/heads/master
