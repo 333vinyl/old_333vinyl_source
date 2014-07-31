@@ -17,8 +17,8 @@ post:
 		echo "artwork: \"$(ARTISTN)-$(ALBUMN).jpg\"" >> $(FILE)
 		echo "artist: $(ARTIST)" >> $(FILE)
 		echo "album: $(ALBUM)" >> $(FILE)
-		echo "score: " >> $(FILE)
-		echo "p4k: " >> $(FILE)
+		echo "score: $(SCORE)" >> $(FILE)
+		echo "p4k: $(P4K)" >> $(FILE)
 		echo "label: " >> $(FILE)
 		echo "release: " >> $(FILE)
 		echo "template: review.jade" >> $(FILE)
@@ -49,4 +49,5 @@ push-deploy: deploy
 		git push origin master
 
 preview:
+		open -a /Applications/Firefox.app http://127.0.0.1:8080
 		wintersmith preview
