@@ -4,7 +4,7 @@ author: the-wintersmith
 date: 2014-10-01 15:00
 template: review.jade
 artwork: antlers-familiars.jpg
-score: 4.5
+score: 4.0
 artist: The Antlers
 album: Familiars
 label: Anti-
