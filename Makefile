@@ -1,7 +1,7 @@
 BUILD_DIR := ./build
 PROD_REPO = git@github.com:333vinyl/333vinyl.github.io.git
 
-DATE   ?= "$(shell date)"
+DATE ?= "$(shell date)"
 POST ?= $(filter-out $@,$(MAKECMDGOALS))
 FILE = $(shell date "+./contents/articles/%Y-%m-%d-$(POST).md" | sed -e y/\ /-/)
 
@@ -26,10 +26,12 @@ build: clean
 		wintersmith build
 		echo "333vinyl.us" >> $(BUILD_DIR)/CNAME
 
-deploy: clean build
+deploy: clean build git-prod
 		cd $(BUILD_DIR) && git add . && git commit -am "PROD" && git push -f origin +master:refs/heads/master
 
 push-deploy: deploy
+		git add .
+		git commit -am "push-deploy"
 		git push origin master
 
 preview:

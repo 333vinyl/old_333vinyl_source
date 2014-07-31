@@ -140,6 +140,8 @@ hr {
   border-radius: 30%;
   border: solid;
   float: left;
+  margin-top: 6%;
+  margin-bottom: 1%;
   padding: 10px;
   display: inline-block;
   vertical-align: middle;
@@ -149,27 +151,33 @@ hr {
   color: red;
 }
 
-.header .details .albumartist{
+.header .details .albumartist p{
   font-family: 'Oswald';
   max-width: 50%;
-  max-height: 30%;
+  max-height: auto;
   font-size: 1.8em;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
+}
+
+.header .details .albumartist .artist{
+  font-size: 2.0em;
 }
 
 .header .details .labelrelease{
   font-family: 'Anonymous Pro';
   float: left;
-  margin: 0px;
   margin-left: 3%;
   display: inline-block;
   vertical-align: middle;
+  margin-top: 8%;
+  margin-bottom: 10%;
 }
 
-/*.header .details .release {
+.header .details .p4k {
   clear: left;
   float: left;
-}*/
+  margin: 0px;
+}
 
 .header .details img {
   max-width:50%;
@@ -370,7 +378,7 @@ p code {
   position: relative;
   background: #fffff3;
 
-  white-space: nowrap;
+  white-space: pre-line;
 }
 
 /* syntax hl stuff */

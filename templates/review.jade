@@ -15,10 +15,9 @@ block header
     mixin author(page.metadata.author)
   div.details
     img(src=page.metadata.artwork)
-    p.albumartist
-      | #{page.metadata.artist}
-      br
-      | #{page.metadata.album}
+    div.albumartist
+      p.artist= page.metadata.artist
+      p.album= page.metadata.album
     if page.metadata.score >= 4.5
       p.score_red= page.metadata.score
     if page.metadata.score < 4.5
@@ -27,6 +26,8 @@ block header
       | #{page.metadata.label}
       br
       | #{page.metadata.release}
+    p.p4k
+      | Predicted Pitchfork score: <strong>#{page.metadata.p4k}</strong>
 
 block content
   article.article
