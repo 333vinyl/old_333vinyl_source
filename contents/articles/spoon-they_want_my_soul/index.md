@@ -4,11 +4,12 @@ author: the-wintersmith
 date: 2014-10-01 15:00
 template: review.jade
 artwork: spoon-they_want_my_soul.jpg
-score: 4.5
+score: "4.5"
 artist: Spoon
 album: They Want My Soul
 label: Loma Vista
 release: 2014/08/05
+p4k: 8.7
 ---
 
 Syntax highlighting with [highlight.js](http://softwaremaniacs.org/soft/highlight/en/).

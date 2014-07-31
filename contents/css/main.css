@@ -137,7 +137,7 @@ hr {
   font-family: 'Anonymous Pro';
   font-weight: bold;
   font-size: 2.2em;
-  border-radius: 30%;
+  border-radius: 50%;
   border: solid;
   float: left;
   margin-top: 6%;
@@ -145,8 +145,6 @@ hr {
   padding: 10px;
   display: inline-block;
   vertical-align: middle;
-  height: auto;
-  max-width: 50%;
 }
 
 .header .details .score_red {
@@ -155,8 +153,6 @@ hr {
 
 .header .details .albumartist p{
   font-family: 'Oswald';
-  max-width: 50%;
-  height: auto;
   font-size: 1.8em;
   margin-bottom: 0%;
 }

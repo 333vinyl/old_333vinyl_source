@@ -2,15 +2,27 @@ BUILD_DIR := ./build
 PROD_REPO = git@github.com:333vinyl/333vinyl.github.io.git
 
 DATE ?= "$(shell date)"
-POST ?= $(filter-out $@,$(MAKECMDGOALS))
-FILE = $(shell date "+./contents/articles/%Y-%m-%d-$(POST).md" | sed -e y/\ /-/)
+ALBUMN = $(shell echo $(ALBUM) | sed -e 's/ /_/g' | tr '[:upper:]' '[:lower:]')
+ARTISTN = $(shell echo $(ARTIST) | sed -e 's/ /_/g' | tr '[:upper:]' '[:lower:]')
+DIR = ./contents/articles/$(ARTISTN)-$(ALBUMN)
+FILE = ./$(DIR)/index.md
 
 post:
+		mkdir -p $(DIR)
 		echo "---" >> $(FILE)
-		echo "title: \"$(POST)\"" >> $(FILE)
+		echo "title: \"$(ARTIST) - $(ALBUM)\"" >> $(FILE)
 		echo "date: $(shell date +\"%Y-%m-%d\")" >> $(FILE)
+		echo "author: ben-bailey" >> $(FILE)
+		echo "artwork: \"$(ARTISTN)-$(ALBUMN).jpg\"" >> $(FILE)
+		echo "artist: $(ARTIST)" >> $(FILE)
+		echo "album: $(ALBUM)" >> $(FILE)
+		echo "score: " >> $(FILE)
+		echo "p4k: " >> $(FILE)
+		echo "label: " >> $(FILE)
+		echo "release: " >> $(FILE)
+		echo "template: review.jade" >> $(FILE)
 		echo "---" >> $(FILE)
-		vim $(FILE)
+		atom $(FILE)
 		exit
 
 install:
