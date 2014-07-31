@@ -16,13 +16,6 @@
 # To auto-populate all directories in the current directory, run the following command
 #
 # find . -type d -exec ./get_coverart "{}" \;
-dpath="$1"
-encoded="$(perl -MURI::Escape -e 'print uri_escape($ARGV[0]);' "$dpath")"
+artistalbum="$1"
 
-echo ""
-echo "Searching for: [$1]"
-url="http://www.albumart.org/index.php?searchkey=$encoded&itempage=1&newsearch=1&searchindex=Music"
-echo "Searching ... [$url]"
-coverurl=`wget -qO - $url | xmllint --html --xpath  'string(//a[@title="View larger image" and starts-with(@href, "http://ecx.images-amazon")]/@href)' - 2>/dev/null`
-echo "Cover URL: [$coverurl]"
-wget "$coverurl" -O "$dpath.jpg"
+wget `wget -qO - "http://www.albumart.org/index.php?searchkey=$(perl -MURI::Escape -e 'print uri_escape($ARGV[0]);' "$artistalbum")&itempage=1&newsearch=1&searchindex=Music" | xmllint --html --xpath  'string(//a[@title="View larger image" and starts-with(@href, "http://ecx.images-amazon")]/@href)' - 2>/dev/null` -qO "$artistalbum.jpg"
