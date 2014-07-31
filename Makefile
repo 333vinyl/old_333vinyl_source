@@ -49,5 +49,4 @@ push-deploy: deploy
 		git push origin master
 
 preview:
-		open -a /Applications/Firefox.app http://127.0.0.1:8080
 		wintersmith preview
