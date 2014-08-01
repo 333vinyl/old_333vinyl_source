@@ -3,7 +3,7 @@
     "url": "http://333vinyl.us",
     "name": "333vinyl",
     "owner": "Ben Bailey",
-    "description": "A teenager who likes music"
+    "description": "The name of this site is 333vinyl. That's what it's about."
   },
   "plugins": [
     "./plugins/paginator.coffee"
