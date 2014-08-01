@@ -2,20 +2,12 @@
 view: none
 ---
 
-Wintersmith is made by [Johan Nordberg][1] and licensed under the [MIT-license][2].
-Wheeeeeeee. Zooooom.
+333vinyl is a new music site started by [Ben Bailey][1]. He likes music and writing, and thought he should probably combine the two. The site is in progress right now as it begins to take shape, but for now check out the reviews that have been posted.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+Feel free to [contact me](mailto:bennettbailey@gmail.com) if you're interested in contributing.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum.
+This site was built with Wintersmith and is open source. You can view the code for the site [here][2].
 
 
-[1]: http://johan-nordberg.com
-[2]: http://opensource.org/licenses/MIT
+[1]: http://benbailey.me/landing
+[2]: https://github.com/benfb/music
