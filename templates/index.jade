@@ -3,6 +3,8 @@ extends layout
 block content
   include author
   each article in articles
+    div.sideart
+      img(src=article.url + article.metadata.artwork)
     article.article.intro
       header
         p.date
