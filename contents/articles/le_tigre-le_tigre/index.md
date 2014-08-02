@@ -12,7 +12,7 @@ release: 1999/10/26
 template: review.jade
 ---
 
-Le Tigre is perhaps best known as Kathleen Hanna's other band. Hanna was the frontwoman of Bikini Kill, which kicked off the riot grrrl movement, has had several documentaries made about her, and (fun-fact) is married to Ad-Rock. But I only heard about Le Tigre yesterday, looking for dance-punk bands. I had no idea Hanna was involved until the first verse of the first (and perhaps best) song, "Deceptacon," which tears down preconceptions, sets expectations, and takes a shot at pop music in five lines: `Wanna disco? / Wanna see me disco? / Let me hear you depoliticize my rhyme. / One! Two! Three! Four! /  You got what you been asking for.`
+Le Tigre is perhaps best known as Kathleen Hanna's other band. Hanna was the frontwoman of Bikini Kill, which kickstarted the riot grrrl movement, has had several documentaries made about her, and (fun-fact) is married to Ad-Rock. But I only heard about Le Tigre yesterday, looking for dance-punk bands. I had no idea Hanna was involved until the first verse of the first (and perhaps best) song, "Deceptacon," which tears down preconceptions, sets expectations, and takes a shot at pop music in five lines: `Wanna disco? / Wanna see me disco? / Let me hear you depoliticize my rhyme. / One! Two! Three! Four! /  You got what you been asking for.`
 
 <span class="more">
 
