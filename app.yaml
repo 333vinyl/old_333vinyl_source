@@ -1,0 +1,17 @@
+application: threethreethreevinyl
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /build
+  static_dir: build
+- url: /
+  static_files: build/index.html
+  upload: build/index.html
+- url: /css
+  static_dir: build/css
+libraries:
+- name: webapp2
+  version: latest
