@@ -12,7 +12,7 @@ release: 1976/08
 template: review.jade
 ---
 
-*The Modern Lovers* starts off with Richman counting `1-2-3-4-5-6!`, a twist on the classic four-count that begins so many songs. It's a little familiar, a little odd, and strangely endearing, all threads that run deep in the band's definitive proto-punk opus as well as in the work of countless artists that were inspired by the album.
+*The Modern Lovers* starts off with Richman counting `1-2-3-4-5-6!`, a twist on the classic four-count that begins so many songs. It's a little familiar, a little odd, and strangely endearing, all threads that run deep in the band's definitive proto-punk opus as well as in the work of the countless artists that were inspired by the album.
 
 <span class="more">
 
