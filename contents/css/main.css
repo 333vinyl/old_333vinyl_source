@@ -259,13 +259,6 @@ footer .copy, footer .copy a {
   text-decoration: none;
 }
 
-/*.sideart img {
-  margin: 3% 3% 0% 0%;
-  max-width: 45%;
-  height: auto;
-  float: left;
-}*/
-
 .article header .date {
   text-align: center;
   font-size: 0.8em;
@@ -277,10 +270,12 @@ footer .copy, footer .copy a {
   padding: 0 0.7em;
 }
 
-.article header img {
-  max-width:20%;
+.article.intro h2 img {
+  max-width:50%;
   height: auto;
-  margin-left: -21%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article.intro .content p {

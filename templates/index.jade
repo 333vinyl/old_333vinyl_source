@@ -10,7 +10,7 @@ block content
         h2
           a(href=article.url onmouseover="document.getElementById('place-holder-#{article.title}').src='#{article.url+article.metadata.artwork}';"
   onmouseout="document.getElementById('place-holder-#{article.title}').src='/img/transparent.png';")= article.title
-        img(src="/img/transparent.png" id="place-holder-#{article.title}" style="zindex: 100; position: absolute;")
+          img(src="/img/transparent.png" id="place-holder-#{article.title}" style="zindex: 100;")
       section.content
         if article.intro.length > 0
           | !{ typogr(article.intro).typogrify() }
