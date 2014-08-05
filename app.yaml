@@ -7,11 +7,26 @@ threadsafe: yes
 handlers:
 - url: /build
   static_dir: build
+
 - url: /
   static_files: build/index.html
   upload: build/index.html
+
+- url: /archive
+  static_files: build/archive.html
+  upload: build/archive.html
+
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: build/\1
+  upload: build/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
+- url: /(.+)/
+  static_files: build/\1/index.html
+  upload: build/(.+)/index.html
+
 - url: /css
   static_dir: build/css
+
 libraries:
 - name: webapp2
   version: latest
