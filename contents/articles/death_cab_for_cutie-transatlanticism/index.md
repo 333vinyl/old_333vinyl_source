@@ -12,11 +12,11 @@ release:
 template: review.jade
 ---
 
-Wow, this is good. *Transatlanticism* is widely considered Death Cab For Cutie's magnum opus. It's Death Cab's fourth studio album of seven, but probably the first album that comes to someone's mind when they talk about Death Cab. "Sound of Settling," which frontman Ben Gibbard originally didn't want to include on the album, became one of Death Cab's biggest hits. The album is beloved by critics, teenagers, and music enthusiasts alike, an instant classic.
+*Transatlanticism* is widely considered Death Cab For Cutie's magnum opus. It's Death Cab's fourth studio album of seven, but probably the first album that comes to someone's mind when they talk about the band. "Sound of Settling," which frontman Ben Gibbard originally didn't want to include on the album, has become one of Death Cab's biggest hits. The rough concept album about distance and it's effect on relationships is beloved by critics, teenagers, and music enthusiasts alike, and is considered an instant classic.
 
 <span class="more">
 
-A rough concept album about distance and it's effect on relationships, *Transatlanticism* begins with "The New Year," which discribes Dismemberment-Plan-style dissilusionment with new year's festivities. It sets the tone nicely for what will follow, as does "Lightness," which leads the standout "Title and Registration."
+*Transatlanticism* begins with "The New Year," which discribes Dismemberment-Plan-style dissilusionment with new year's festivities. It sets the tone nicely for what will follow, as does "Lightness," which flows nicely into the standout "Title and Registration."
 
 The song starts with Gibbard cleverly proposing a change of the name "glove compartment," because the only things inside are disappointment and regret. The drum sound here is instantly memorable, and drives Gibbard's voice and the equally distinctive riff forward, a common musical theme across *Transatlanticism*.
 
