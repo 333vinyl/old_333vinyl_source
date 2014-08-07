@@ -16,7 +16,7 @@ template: review.jade
 
 <span class="more">
 
-*Transatlanticism* begins with "The New Year," which discribes Dismemberment-Plan-style dissilusionment with new year's festivities. It sets the tone nicely for what will follow, as does "Lightness," which flows nicely into the standout "Title and Registration."
+*Transatlanticism* begins with "The New Year," which describes Dismemberment-Plan-style disillusionment with new year's festivities. It sets the tone nicely for what will follow, as does "Lightness," which flows nicely into the standout "Title and Registration."
 
 The song starts with Gibbard cleverly proposing a change of the name "glove compartment," because the only things inside are disappointment and regret. The drum sound here is instantly memorable, and drives Gibbard's voice and the equally distinctive riff forward, a common musical theme across *Transatlanticism*.
 
