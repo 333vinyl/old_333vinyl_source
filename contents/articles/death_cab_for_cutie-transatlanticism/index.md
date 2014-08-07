@@ -7,8 +7,8 @@ artist: Death Cab For Cutie
 album: Transatlanticism
 score: 4.5
 p4k: N/A
-label:
-release:
+label: Barsuk
+release: 2003/10/07
 template: review.jade
 ---
 
