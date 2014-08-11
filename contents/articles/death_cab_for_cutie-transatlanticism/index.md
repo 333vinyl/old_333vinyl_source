@@ -12,7 +12,7 @@ release: 2003/10/07
 template: review.jade
 ---
 
-*Transatlanticism* is widely considered Death Cab For Cutie's magnum opus. It's Death Cab's fourth studio album of seven, but probably the first album that comes to someone's mind when they talk about the band. "Sound of Settling," which frontman Ben Gibbard originally didn't want to include on the album, has become one of Death Cab's biggest hits. The rough concept album about distance and it's effect on relationships is beloved by critics, teenagers, and music enthusiasts alike, and is considered an instant classic.
+*Transatlanticism* is widely considered Death Cab For Cutie's magnum opus. It's Death Cab's fourth studio album of seven, but probably the first album that comes to someone's mind when they talk about the band. "Sound of Settling," which frontman Ben Gibbard originally didn't want to include on the album, has become one of Death Cab's biggest hits. The rough concept album about distance and its effect on relationships is beloved by critics, teenagers, and music enthusiasts alike, and is considered an instant classic.
 
 <span class="more">
 
