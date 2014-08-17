@@ -5,9 +5,12 @@ date: 2014-08-17
 template: article.jade
 ---
 
+This week I finally went through a large portion of all the albums on my "to-listen" list. These are the ones I'm currently enjoying. Interestingly enough, seven of the nine albums are debuts.
+
+<span class="more">
+
 ![](collage.png)
 
-This week I finally went through a large portion of all the albums on my "to-listen" list. These are the ones I'm currently enjoying. Interestingly enough, seven of the nine albums are debuts.
 
 **Beach House - *Bloom***: This is a great album that took me a few listens to get in to. It's not groundbreaking, but it's incredible high-quality and accessible dream pop. Good for sunrises, sunsets, and dusk.
 
