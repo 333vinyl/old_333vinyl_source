@@ -7,8 +7,8 @@ artist: of Montreal
 album: Hissing Fauna, Are You The Destroyer?
 score: "5.0"
 p4k: N/A
-label:
-release:
+label: 2007/01/23
+release: Polyvinyl
 template: review.jade
 ---
 
