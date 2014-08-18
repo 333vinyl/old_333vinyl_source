@@ -20,7 +20,10 @@ html(lang='en')
           div.logo
             h1
               a(href=locals.url)= locals.name
-            p.description= locals.description
+            p.description
+              | #{locals.description}
+              br
+              a(href=locals.url+'/feed') Subscribe
     div#content
       div.content-wrap
         block content
