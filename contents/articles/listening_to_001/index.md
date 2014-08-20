@@ -4,6 +4,7 @@ author: ben-bailey
 date: 2014-08-17
 template: article.jade
 edition: '001'
+category: listening_to
 ---
 
 This week I finally went through a large portion of all the albums on my "to-listen" list. These are the ones I'm currently enjoying. Interestingly enough, seven of the nine albums are debuts.

@@ -10,6 +10,7 @@ p4k: N/A
 label: Arts & Crafts
 release: 2002/10/15
 template: review.jade
+category: reviews
 ---
 
 It took me a few listens to get into *You Forgot It In People*. The first time I downloaded it, I skimmed through the songs. Upon not finding any immediate hits on what was billed as a pop album, I decided to give it a more thorough listen on a later date. Now, nearly a year after first listening to it, I decided to give it another chance, and another, and another. There is so much more to this album than I initially thought.
