@@ -1,9 +1,10 @@
 ---
-title: If We Hung Out 001
+title: If We Hung Out
 author: mason-lynaugh
 date: 2014-08-20
 template: article.jade
 artwork: '../../img/transparent.png'
+edition: '001'
 ---
 
 My name is Mason Lynaugh and I will occasionally be contributing to 333vinyl. My musical tastes include Ben’s, but are more concerned with the most recent developments in hip hop - whether it be drill, coastal, trap, or slip-hop - so I will focus mainly on what has been blaring through my speakers on its path to being overplayed. I’m planning on doing periodical entries under the terrible title “if we hung out” because “songs I would make you listen to if we hung out” was a bit worse, and the people who do hang out with me would attest to its accuracy.
