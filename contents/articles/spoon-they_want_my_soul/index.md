@@ -10,6 +10,7 @@ album: They Want My Soul
 label: Loma Vista
 release: 2014/08/05
 p4k: 8.7
+category: reviews
 ---
 
 For the few years I was discovering new music on my own, I would play the most recent album on Rdio to see if I liked a band. In 2011, Spoon's latest was the divisive *Transference*. It's still one of my favorite Spoon albums, and I was never a huge fan of *GA GA GA GA GA* or *Gimme Fiction* (both enjoyable listens, but neither stood out to me). It took me another few years to discover the breakthrough *Kill the Moonlight*, which remains my favorite Spoon album. *They Want My Soul*, however, is the now-mature band's best offering since their career-standout.

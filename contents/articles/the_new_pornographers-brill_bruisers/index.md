@@ -11,5 +11,6 @@ label:
 release:
 template: review.jade
 draft: true
+category: reviews
 ---
 Good album.

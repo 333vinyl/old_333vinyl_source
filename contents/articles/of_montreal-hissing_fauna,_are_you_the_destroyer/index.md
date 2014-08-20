@@ -10,6 +10,7 @@ p4k: N/A
 label: 2007/01/23
 release: Polyvinyl
 template: review.jade
+category: reviews
 ---
 
 of Montreal, part of the [Elephant 6 collective](https://en.wikipedia.org/wiki/Elephant_Six) that spawned (among others) Neutral Milk Hotel and The Olivia Tremor Control, has released twelve albums in sixteen years. While not as consistent in quality as, say, Spoon, of Montreal's substantial output has yielded several magnificent albums. *Hissing Fauna, Are You The Destroyer?* is of Montreal's finest work, an impressive struggle with depression and identity backed by infectious melodies and grooves.
