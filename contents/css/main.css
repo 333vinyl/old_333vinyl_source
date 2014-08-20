@@ -295,6 +295,22 @@ footer .copy, footer .copy a {
   padding: 5px;
 }
 
+.article .content img {
+  display: block;
+  max-width: 35%;
+  float: right;
+  padding: 5px;
+}
+
+#collage {
+  display: block;
+  max-width: 100%;
+  padding: 0px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .more, .date {
   font-family: 'Merriweather', serif;
   font-variant: small-caps;

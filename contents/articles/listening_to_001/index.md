@@ -10,7 +10,7 @@ This week I finally went through a large portion of all the albums on my "to-lis
 
 <span class="more">
 
-![](collage.png)
+<img id="collage" src="collage.png" />
 
 **Beach House - *Bloom***: This is a great album that took me a few listens to get in to. It's not groundbreaking, but it's incredible high-quality and accessible dream pop. Good for sunrises, sunsets, and dusk.
 
