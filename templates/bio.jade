@@ -5,7 +5,7 @@ block append vars
   - bodyclass = 'article-detail'
 
 block prepend title
-  | #{ page.title + " - "}
+  | #{ page.metadata.name + " - "}
 
 block header
   h1(style="font-style: normal;")= page.metadata.name
