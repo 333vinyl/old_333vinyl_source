@@ -1,6 +1,9 @@
 {
   "name": "Ben Bailey",
   "email": "bennettbailey@gmail.com",
-  "bio": "I am the anthropomorphic personification of winter and i like turtles",
-  "color": "SteelBlue"
+  "bio": "A curious, empathetic student looking forward to the world.",
+  "color": "SteelBlue",
+  "template": "bio.jade",
+  "twitter": "https://twitter.com/bennett",
+  "site": "http://benbailey.me"
 }
