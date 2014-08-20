@@ -11,7 +11,6 @@ This week I finally went through a large portion of all the albums on my "to-lis
 
 ![](collage.png)
 
-
 **Beach House - *Bloom***: This is a great album that took me a few listens to get in to. It's not groundbreaking, but it's incredible high-quality and accessible dream pop. Good for sunrises, sunsets, and dusk.
 
 **DIIV - *Oshin***: Maybe the best way to describe this album is a rainy day at the beach. Great dreamy jam sound, reminiscient of Real Estate. "Doused" is a standout.

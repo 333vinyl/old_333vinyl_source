@@ -6,7 +6,7 @@ block content
     article.article.intro
       header
         p.date
-          span= moment.utc(article.date).format('DD•MMMM•YYYY')
+          span(style="color: #{contents.authors[article.metadata.author + '.json'].metadata.color}")= moment.utc(article.date).format('DD•MMMM•YYYY') + ' - ' + contents.authors[article.metadata.author + '.json'].metadata.name
         h2
           a(href=article.url onmouseover="document.getElementById('place-holder-#{article.title}').src='#{article.url+article.metadata.artwork}';"
   onmouseout="document.getElementById('place-holder-#{article.title}').src='/img/transparent.png';")= article.title
