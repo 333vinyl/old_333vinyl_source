@@ -3,7 +3,6 @@ title: If We Hung Out
 author: mason-lynaugh
 date: 2014-08-20
 template: article.jade
-artwork: '../../img/transparent.png'
 edition: '001'
 ---
 
