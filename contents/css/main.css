@@ -324,9 +324,8 @@ footer .copy, footer .copy a {
 .archive h2 {
   font-size: 2em;
   margin: 0;
-  margin-left: 6.1em;
-  margin-bottom: 0.5em;
-  font-style: italic;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .archive a, .archive span{
