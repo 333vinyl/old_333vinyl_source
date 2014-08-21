@@ -13,8 +13,7 @@ block header
   p.author
     | #{ "Written by " }
     mixin author(page.metadata.author)
-    br
-    | Published in 
+    | #{" in "}
     a(href="http://333vinyl.us/#{page.metadata.category}.html" style="text-decoration: underline") #{page.metadata.category}
   div.details
     img(src=page.metadata.artwork)
@@ -29,8 +28,6 @@ block header
       | #{page.metadata.label}
       br
       | #{page.metadata.release}
-    p.p4k
-      | Predicted Pitchfork score: <strong>#{page.metadata.p4k}</strong>
 
 block content
   article.article
