@@ -2,9 +2,10 @@
 extends layout
 
 block content
-  section.archive
     h2= page.metadata.category.toUpperCase()
-    each item in env.helpers.getArticles(contents)
-      if(item.metadata.category === page.metadata.category)
-        li
-          a(href=item.url)=item.title
+    ul
+      each item in env.helpers.getArticles(contents)
+        if(item.metadata.category === page.metadata.category)
+          li
+            a(href=item.url)= item.title
+            span(style="float: right;")= moment.utc(item.date).format('DD•MMMM•YYYY')

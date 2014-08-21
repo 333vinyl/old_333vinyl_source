@@ -4,5 +4,6 @@ mixin author(authorName)
   span.author
     if author
       a(href="http://333vinyl.us/authors/" + authorName style="color: #{author.metadata.color}")= author.metadata.name
+      - var color = author.metadata.color
     else
       =authorName
