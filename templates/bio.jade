@@ -9,7 +9,7 @@ block prepend title
 
 block header
   h1(style="font-style: normal;")= page.metadata.name
-  p.author
+  p.author(style="color: {page.metadata.color}")
     a(href=page.metadata.twitter) Twitter
     | •
     a(href=page.metadata.site) Site
