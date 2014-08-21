@@ -3,9 +3,9 @@ extends layout
 
 block content
     h2= page.metadata.category.toUpperCase()
-    ul
+    ul(style="list-style-type: square; margin: 0")
       each item in env.helpers.getArticles(contents)
         if(item.metadata.category === page.metadata.category)
-          li
-            a(href=item.url style="width: 70%; float: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;")= item.title
-            span(style="float: right;")= moment.utc(item.date).format('DD•MMMM•YYYY')
+          li(style="display: inline-block; width: 100%")
+            a(href=item.url style="float: left; max-width: 80%; width: auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;")= item.title
+            span(style="float: right;")= moment.utc(item.date).format('MM-DD-YYYY')
