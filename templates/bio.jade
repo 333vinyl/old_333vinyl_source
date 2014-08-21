@@ -17,6 +17,8 @@ block header
 block content
   article.article
     section.content()= page.metadata.bio
+      img(src=locals.url + '/img/essentials/' + page.metadata.short + '.png')
+
 
 block prepend footer
   div.nav

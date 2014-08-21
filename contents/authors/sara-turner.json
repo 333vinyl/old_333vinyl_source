@@ -1,5 +1,6 @@
 {
   "name": "Sara Turner",
+  "short": "sara-turner",
   "bio": "[insert bio here]",
   "color": "SteelBlue",
   "template": "bio.jade",
