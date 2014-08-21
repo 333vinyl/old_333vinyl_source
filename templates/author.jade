@@ -3,7 +3,6 @@ mixin author(authorName)
   - var author = contents.authors[authorName + '.json']
   span.author
     if author
-      - console.log(author.metadata);
-      a(href="http://333vinyl.us/authors/" + author style="color: #{author.metadata.color}")= author.metadata.name
+      a(href="http://333vinyl.us/authors/" + authorName style="color: #{author.metadata.color}")= author.metadata.name
     else
       =authorName
