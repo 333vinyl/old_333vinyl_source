@@ -9,14 +9,14 @@ block prepend title
 
 block header
   h1(style="font-style: normal;")= page.metadata.name
-  p.author(style="color: {page.metadata.color}")
-    a(href=page.metadata.twitter style="color: {page.metadata.color}") Twitter
+  p.author
+    a(href=page.metadata.twitter) Twitter
     | •
-    a(href=page.metadata.site style="color: {page.metadata.color}") Site
+    a(href=page.metadata.site) Site
 
 block content
   article.article
-    section.content= page.metadata.bio
+    section.content()= page.metadata.bio
 
 block prepend footer
   div.nav
