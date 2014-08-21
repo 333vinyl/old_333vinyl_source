@@ -7,5 +7,5 @@ block content
       each item in env.helpers.getArticles(contents)
         if(item.metadata.category === page.metadata.category)
           li
-            a(href=item.url)= item.title
+            a(href=item.url style="width: 70%; float: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;")= item.title
             span(style="float: right;")= moment.utc(item.date).format('DD•MMMM•YYYY')
