@@ -6,7 +6,8 @@ block content
     article.article.intro
       header
         p.date
-          span(style="color: #{contents.authors[article.metadata.author + '.json'].metadata.color}")= moment.utc(article.date).format('DD•MMMM•YYYY') + ' ✎ ' + contents.authors[article.metadata.author + '.json'].metadata.name
+          span(style="color: #{contents.authors[article.metadata.author + '.json'].metadata.color}")
+            | #{moment.utc(article.date).format('DD•MMMM•YYYY') + ' ✎ ' + contents.authors[article.metadata.author + '.json'].metadata.name}
         h2
           if(article.metadata.edition)
             a(href=article.url)= article.title + ' [' + article.metadata.edition + ']'
