@@ -13,6 +13,9 @@ block header
   p.author
     | #{ "Written by " }
     mixin author(page.metadata.author)
+    br
+    | Published in 
+    a(href="http://333vinyl.us/#{page.metadata.category}.html" style="text-decoration: underline") #{page.metadata.category}
 
 block content
   article.article
