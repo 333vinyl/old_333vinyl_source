@@ -14,7 +14,7 @@ block header
     | #{ "Written by " }
     mixin author(page.metadata.author)
     | #{" in "}
-    a(href="http://333vinyl.us/#{page.metadata.category}.html" style="text-decoration: underline") #{page.metadata.category}
+    a(href="http://333vinyl.us/#{page.metadata.category}.html" style="color: #{contents.authors[page.metadata.author + '.json'].metadata.color}") #{page.metadata.category}
   div.details
     img(src=page.metadata.artwork)
     div.albumartist
