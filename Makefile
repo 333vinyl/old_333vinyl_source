@@ -18,9 +18,9 @@ post:
 		echo "artist: $(ARTIST)" >> $(FILE)
 		echo "album: $(ALBUM)" >> $(FILE)
 		echo "score: $(SCORE)" >> $(FILE)
-		echo "p4k: $(P4K)" >> $(FILE)
 		echo "label: " >> $(FILE)
 		echo "release: " >> $(FILE)
+		echo "category: " >> $(FILE)
 		echo "template: review.jade" >> $(FILE)
 		echo "---" >> $(FILE)
 		wget -q $(URL) -O "$(DIR)/$(ARTISTN)-$(ALBUMN).jpg"
