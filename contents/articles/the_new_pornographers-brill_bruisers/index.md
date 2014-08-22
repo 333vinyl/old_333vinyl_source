@@ -14,6 +14,8 @@ category: reviews
 
 This is the best New Pornographers album since *Twin Cinema*. The Canadian supergroup excels in celebratory music, and after two somewhat-lackluster offerings with a darker sound, *Brill Bruisers* is a triumphant return. Frontman A.C. Newman described the record as "a celebration record," and the band follows through completely on that promise, boasting titles like "Champions of Red Wine" and "Dancehall Domine."
 
+<span class="more">
+
 The album begins with the title track, a single with a masterful ear-worm of a wordless chorus. Two lighter celebratory songs follow that sound like they could be from earlier New Pornographers albums, "Champions of Red Wine" and "Fantasy Fools."
 
 Next comes my personal favorite track, "War on the East Coast." Its [brilliant 90s-Britpop-style video](https://www.youtube.com/watch?v=WMcumbSMY_8) combined with Dan Bejar's unique vocal stylings make for four minutes of up-tempo bliss. It's one of those songs that feels like you've been waiting to hear for a long time. The song transitions smoothly into "Backstairs," which starts with slow, vocoder vocals but eventually breaks out into one of the band's grooviest verses. Neko Case's golden voice propels along the following "Marching Orders," which concludes one of the strongest trios the band has recorded. "Another Drug Deal of the Heart" serves as a quick, fun epilogue.
