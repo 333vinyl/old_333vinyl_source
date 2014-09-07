@@ -5,6 +5,7 @@ date: 2014-09-07
 template: article.jade
 edition: ''
 category: articles
+artwork: ''
 ---
 
 I'm Sophie from Whidbey Island in Washington State and I like to pretend I know what's cool. My music taste is pretty broad so I won't go into detail, but I will say I like Dave Matthews Band in a very un-ironic way. Here's what to listen to while smoking, painting nails, and driving home at 5 AM.
