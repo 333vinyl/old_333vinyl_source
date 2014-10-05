@@ -10,7 +10,7 @@ Feel free to [contact me](mailto:bennettbailey@gmail.com) if you're interested i
 
 This site was built with Wintersmith and is open source. You can view the code for the site [here][2].
 
-Logo courtesy of Matt Lynaught.
+Logo courtesy of Matt Lynaugh.
 
 
 [1]: http://benbailey.me/landing
