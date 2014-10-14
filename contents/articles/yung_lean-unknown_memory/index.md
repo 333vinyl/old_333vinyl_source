@@ -6,8 +6,8 @@ artwork: "yung_lean-unknown_memory.jpg"
 artist: Yung Lean
 album: Unknown Memory
 score: "3.0"
-label:
-release:
+label: Sky Team
+release: 2014/9/23
 category: reviews
 template: review.jade
 ---
